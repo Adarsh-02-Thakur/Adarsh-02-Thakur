@@ -53,7 +53,7 @@
 
 | Project | Description | Tech |
 |---|---|---|
-| 🧠 [**AI-Recruitment-Intelligence**](https://github.com/Adarsh-02-Thakur/-AI-Recruitment-Intelligence) | It analyze the Resume and Job Description | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+| 🧠 [**AI-Recruitment-Intelligence**](https://github.com/Adarsh-02-Thakur/-AI-Recruitment-Intelligence) | It analyze the Resume and Job Description | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | 💬 [**Speech Emotion Recognition**](https://github.com/Adarsh-02-Thakur/speech-emotion-recognition) | Detects human emotions from speech audio using ML | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | 🏦 [**Smart Digital Framework for Automated Loan Utilization**](https://github.com/Adarsh-02-Thakur) | Major project tackling credit misuse and fraud in lending | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | 🍬 [**Nassau Candy Route Analysis**](https://github.com/Adarsh-02-Thakur/nassau-candy-route-analysis) | Route and shipping analysis for business insights | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
@@ -83,17 +83,32 @@
 
 <img src="https://github-profile-trophy.vercel.app/?username=Adarsh-02-Thakur&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4" />
 
+<br/><br/>
+
+### ☁️ AWS Academy Graduate – Machine Learning Foundations
+
+<a href="assets/certificates/aws-academy-certificate.pdf">
+  <img src="assets/certificates/aws-academy-certificate.png" alt="AWS Academy Machine Learning Foundations Certificate" width="500"/>
+</a>
+
+<br/>
+
+<sub>Certificate of Completion · 20 hours · Issued 02/10/2025</sub>
+
+<br/><br/>
+
+<a href="https://www.credly.com/go/t1CKOnyz"><img src="https://img.shields.io/badge/Verify%20on-Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Verify on Credly" /></a>
+<a href="assets/certificates/aws-academy-certificate.pdf"><img src="https://img.shields.io/badge/Download-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download PDF" /></a>
+
 </div>
 
 ---
 
 ## 🎓 Certifications & Learning
 
-<!-- Replace these with your real certificates. Keep the badge style, change the text and link. -->
-
 | Certification | Issuer | Year |
 |---|---|---|
-| 🏅 [Your Certificate Name](https://link-to-your-certificate) | Coursera / NPTEL / Udemy | 2026 |
+| 🏅 [AWS Academy Graduate – Machine Learning Foundations](https://www.credly.com/go/t1CKOnyz) | AWS Academy | 2025 |
 | 🏅 [Your Certificate Name](https://link-to-your-certificate) | CodeAlpha | 2026 |
 | 🏅 [Your Certificate Name](https://link-to-your-certificate) | Issuer name | 2025 |
 
