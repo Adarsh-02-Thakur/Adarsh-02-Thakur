@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Adarsh Kumar Thakur">
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="0.5" stop-color="#140d2b"/>
+      <stop offset="1" stop-color="#0a1b2e"/>
+    </linearGradient>
+
+    <!-- Flowing name gradient (seamless loop: first and last colours match) -->
+    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="450" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#00d4ff"/>
+      <stop offset="0.33" stop-color="#7b61ff"/>
+      <stop offset="0.66" stop-color="#ff4ecd"/>
+      <stop offset="1" stop-color="#00d4ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="450 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Moving shine -->
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-200" y1="0" x2="-80" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 1200 0; 1200 0" keyTimes="0;0.4;1" dur="4s" begin="3.2s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Underline gradient -->
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#00d4ff"/>
+      <stop offset="0.5" stop-color="#7b61ff"/>
+      <stop offset="0.75" stop-color="#ff4ecd"/>
+      <stop offset="1" stop-color="#ff4ecd" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Neon glow -->
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="nameclip">
+      <text x="450" y="146" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="3" textLength="800" lengthAdjust="spacingAndGlyphs">ADARSH KUMAR THAKUR</text>
+    </clipPath>
+  </defs>
+
+  <!-- Card -->
+  <rect width="900" height="280" rx="22" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="897" height="277" rx="21" fill="none" stroke="url(#flow)" stroke-width="2" opacity="0.8"/>
+
+  <!-- Floating particles -->
+  <g fill="#00d4ff">
+    <circle cx="70" cy="230" r="2.5" opacity="0"><animate attributeName="cy" values="250;30" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="190" cy="250" r="1.8" opacity="0"><animate attributeName="cy" values="260;20" dur="7.5s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="7.5s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="240" r="2.2" fill="#ff4ecd" opacity="0"><animate attributeName="cy" values="255;25" dur="5.5s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="5.5s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="255" r="1.6" fill="#7b61ff" opacity="0"><animate attributeName="cy" values="265;15" dur="8s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="8s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="610" cy="245" r="2.4" opacity="0"><animate attributeName="cy" values="255;30" dur="6.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="6.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="250" r="1.9" fill="#ff4ecd" opacity="0"><animate attributeName="cy" values="260;20" dur="7s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="7s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="235" r="2.6" fill="#7b61ff" opacity="0"><animate attributeName="cy" values="250;35" dur="6s" begin="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="6s" begin="2.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Greeting -->
+  <text x="450" y="78" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" letter-spacing="6" fill="#9fb3d1" opacity="0">
+    HELLO, I'M
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.3s" fill="freeze"/>
+  </text>
+
+  <!-- Stage 1: neon outline draws itself -->
+  <text x="450" y="146" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="3" textLength="800" lengthAdjust="spacingAndGlyphs"
+        fill="none" stroke="#00d4ff" stroke-width="1.6" stroke-dasharray="1400" stroke-dashoffset="1400" filter="url(#softglow)">
+    ADARSH KUMAR THAKUR
+    <animate attributeName="stroke-dashoffset" from="1400" to="0" dur="2.6s" begin="0.8s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.8;1" dur="1.2s" begin="3s" fill="freeze"/>
+  </text>
+
+  <!-- Stage 2: gradient fill fades in, glowing, then flows forever -->
+  <text x="450" y="146" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="3" textLength="800" lengthAdjust="spacingAndGlyphs"
+        fill="url(#flow)" filter="url(#glow)" opacity="0">
+    ADARSH KUMAR THAKUR
+    <animate attributeName="opacity" values="0;1" dur="1.2s" begin="3s" fill="freeze"/>
+  </text>
+
+  <!-- Shine sweep clipped to the letters -->
+  <g clip-path="url(#nameclip)">
+    <rect x="0" y="80" width="900" height="90" fill="url(#shine)"/>
+  </g>
+
+  <!-- Animated underline grows from the centre -->
+  <rect x="150" y="168" width="600" height="4" rx="2" fill="url(#line)" transform-origin="450 170" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="3.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0 1;1 1" dur="1.2s" begin="3.4s" fill="freeze" additive="replace" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/>
+  </rect>
+  <rect x="150" y="168" width="600" height="4" rx="2" fill="url(#line)" opacity="0.0">
+    <animate attributeName="opacity" values="0;0.9;0.35;0.9" dur="3s" begin="4.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Role line -->
+  <text x="450" y="218" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" letter-spacing="3" fill="#c9d6ee" opacity="0">
+    MACHINE LEARNING  •  JAVA &amp; PYTHON
+    <animate attributeName="opacity" values="0;1" dur="1.2s" begin="4s" fill="freeze"/>
+  </text>
+
+  <!-- Blinking accent dots beside the role line -->
+  <circle cx="86" cy="213" r="4" fill="#ff4ecd"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <circle cx="814" cy="213" r="4" fill="#00d4ff"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></circle>
+</svg>
