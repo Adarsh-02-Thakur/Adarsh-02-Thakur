@@ -22,7 +22,7 @@
 ## 👨‍💻 About Me
 - 🌐 https://adarsh-thakur.in/  (My Portfolio)
 - 🎓 Student passionate about **Machine Learning and Problem Solving**
-- 🔭 Currently working on **speech emotion recognition** and **machine learning projects**
+- 🔭 Currently working on **High Level Machine Learning Project**
 - 🧩 I solve **LeetCode / DSA problems in Java** regularly
 - 🌱 Learning: **Deep Learning, Advanced SQL, Data Visualization**
 - 📫 Reach me: **adarshthakur8171@gmail.com**
