@@ -20,7 +20,7 @@
 ---
 
 ## 👨‍💻 About Me
-- 🌐 https://adarsh-thakur.in/(My Portfolio)
+- 🌐 adarsh-thakur.in (My Portfolio)
 - 🎓 Student passionate about **Machine Learning and Problem Solving**
 - 🔭 Currently working on **speech emotion recognition** and **machine learning projects**
 - 🧩 I solve **LeetCode / DSA problems in Java** regularly
