@@ -53,7 +53,7 @@
 
 | Project | Description | Tech |
 |---|---|---|
-| 🧠 [**AI-Recruitment-Intelligence**](https://github.com/Adarsh-02-Thakur/-AI-Recruitment-Intelligence) | It analyze the Resume and Job Description |
+| 🧠 [**AI-Recruitment-Intelligence**](https://github.com/Adarsh-02-Thakur/-AI-Recruitment-Intelligence) | It analyze the Resume and Job Description | [Python]
 | 💬 [**Speech Emotion Recognition**](https://github.com/Adarsh-02-Thakur/speech-emotion-recognition) | Detects human emotions from speech audio using ML | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | 🏦 [**Smart Digital Framework for Automated Loan Utilization**](https://github.com/Adarsh-02-Thakur) | Major project tackling credit misuse and fraud in lending | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
 | 🍬 [**Nassau Candy Route Analysis**](https://github.com/Adarsh-02-Thakur/nassau-candy-route-analysis) | Route and shipping analysis for business insights | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
