@@ -78,7 +78,6 @@
 ---
 
 ## 🏆 Achievements
-"C:\Users\ADARSH KUMAR THAKUR\Documents\Certificate AWS Academy.pdf"
 
 <div align="center">
 
