@@ -1,10 +1,12 @@
 <!-- Header banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Adarsh%20Kumar%20Thakur&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Aspiring%20Data%20Scientist%20%7C%20ML%20Enthusiast%20%7C%20Java%20%26%20Python%20Developer&descAlignY=58&descSize=17" />
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/Adarsh-02-Thakur/Adarsh-02-Thakur/main/name-banner.svg" alt="Adarsh Kumar Thakur" />
+</div>
 
 <!-- Animated typing name -->
 <div align="center">
   <a href="https://github.com/Adarsh-02-Thakur">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Adarsh+Kumar+Thakur;Data+Analytics+%7C+Machine+Learning;Solving+problems+with+Java+%26+Python;Turning+data+into+decisions+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Adarsh+Kumar+Thakur;Machine+Learning+Enthusiast;Solving+problems+with+Java+%26+Python;Turning+data+into+decisions+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </div>
 
@@ -19,8 +21,8 @@
 
 ## 👨‍💻 About Me
 
-- 🎓 Student passionate about **Data Analytics, Machine Learning and Problem Solving**
-- 🔭 Currently working on **speech emotion recognition** and **data-driven business analytics**
+- 🎓 Student passionate about **Machine Learning and Problem Solving**
+- 🔭 Currently working on **speech emotion recognition** and **machine learning projects**
 - 🧩 I solve **LeetCode / DSA problems in Java** regularly
 - 🌱 Learning: **Deep Learning, Advanced SQL, Data Visualization**
 - 📫 Reach me: **your-email@example.com**
